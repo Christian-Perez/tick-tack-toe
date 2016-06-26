@@ -1,0 +1,23 @@
+
+.board {
+  background-color: rgb(150, 91, 36);
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+}
+.row {
+  text-align: center;
+  margin: 0px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+
+  background-color: rgb(224, 192, 162);
+  border: 5px solid rgb(0, 0, 0);
+  /*font-size: 0; */
+}
+.box:hover {
+  background-color: rgb(212, 180, 164);
+}
